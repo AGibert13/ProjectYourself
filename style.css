@@ -1,0 +1,79 @@
+body{
+	text-align:center;
+	background:url("background.jpg");
+	color:#FFFFFF;
+	background-size:cover;
+	font-size:1.75rem;
+	font-family:"Pacifico", cursive;
+}
+#header{
+	background:rgba(0,0,0,.65);
+	border:solid 4px #FFAE19;
+}
+ul{
+	text-align:right;
+}
+li{
+	display:inline;
+	list-style:none;
+}
+ul li a img{
+	width:50px;
+	height:50px;
+	padding-left:5px;
+}
+#body{
+	color:#FFDF00;
+}
+#dance{
+	float:left;
+	width:33%;
+	background:rgba(105,68,137,.75);
+	border:solid 2px #FFFFFF;
+	height:1200px;
+
+}
+#concerts{
+	float:left;
+	width:32.7%;
+	background:rgba(105,68,137,.75);
+	border:solid 2px #FFFFFF;
+	height:1200px;
+}
+#guitar{
+	float:left;
+	width:33%;
+	background:rgba(105,68,137,.75);
+	border:solid 2px #FFFFFF;
+	height:1200px;
+}
+video{
+	width:340px;
+	height:210px;
+}
+table{
+	width:100%;
+}
+a{
+	text-decoration:none;
+	color:white;
+}
+a:hover{
+	text-decoration:underline;
+	color:#FFDF00;
+}
+td{
+	width:25%;
+}
+.guitarInfo{
+	display: none;
+}
+.danceInfo{
+	display: none;
+}
+.concertsInfo{
+	display: none;
+}
+h2:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>About Me</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('#dance').click(function(){
+					$(".danceInfo").slideToggle();
+					});
+				$('#guitar').click(function(){
+					$(".guitarInfo").slideToggle();
+					});
+				$('#concerts').click(function(){
+					$(".concertsInfo").slideToggle();
+				});
+			});
+		</script>
+	</head>
+	<body>
+	<div id="header">
+	<table>
+		<tr>
+			<td><a href="about.html">Home</a></td>
+			<td><a href="#dance">Dance</a></td>
+			<td><a href="#guitar">Guitar</a></td>
+			<td><a href="#concerts">Concerts</a></td>
+		</tr>
+	</table>
+		<div>
+			<h1>About Me</h1>
+		</div>
+		<p>I'm Adrien Gibert. I am currently in the Quality Assurance/Programming Track at Year Up Atlanta. I am currently 19 (I turn 20 next month). I like to dance, play my guitar, and go to concerts. I hope you enjoy this website.</p>
+		<ul>
+			<li><a href="https://www.instagram.com/the.valiant.prince/?hl=en"><img src="instagram.png"></a></li>
+			<li><a href="https://www.facebook.com/aulaura.gibert"><img src="facebook.png"></a></li>
+			<li><a href="https://twitter.com/TrxllStvd"><img src="twitter.png"></a></li>
+		</ul>
+	</div>
+	<div id="body">
+		<div id="dance">
+			<h2>Dance</h2>
+			<p class="danceInfo">Dancing has always been something that interested me. I was always trying to imitate what I saw in movies and on television. One day I decided to take initative and learn to dance on my own. I went to YouTube and started watching different videos on different techniques. Currently, I perfer footwork over everything else (especially shuffling) and I just recently bought some great shoes for this hobbie (seen below).</p>
+			<video class="danceInfo" controls="controls"><source src="shoes.mp4" type="video/mp4"></video>
+		</div>
+		<div id="guitar">
+			<h2>Guitar</h2>
+			<p class="guitarInfo">I started playing the guitar when I was 17. I always had a passion for music, but I was unable to find the an instrument that felt natural to play. The guitar was a common sight to see, and I loved the way it sounded. Eventually, I ended up buying an acoustic guitar. I learned from different online sources and I now know how to read tabs.</p>
+			<br>
+			<br>
+			<video class="guitarInfo" controls="controls"><source src="guitar.mp4" type="video/mp4"></video>
+		</div>
+		<div id="concerts">
+			<h2>Concerts</h2>
+			<p class="concertsInfo">Starting last summer, I have been extremely interested in seeing live perforamnces. So far I have seen Nicki Minaj and The Weekend for their album tours. I also went to Music Midtown last year to see multiple artist perform, such as Drake, Lenny Kravitz, Sam Smith, and Hozier. I was able to go to these event with some amazing people and it created some of the best memories of my life.</p>
+			<br>
+			<video class="concertsInfo" controls="controls"><source src="concert.mp4" type="video/mp4"></video>
+		</div>
+	</div>
+	</body>
+</html>
